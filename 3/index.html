@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="01.css" rel="stylesheet" />
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.12.4.min.js"></script>
+    <script src="02.js"></script>
+</head>
+<body>
+    <div id="page-content">
+        <div id="popWin" class="popWin">
+            <img src="打赏切图已压缩/打赏金额弹窗/confirmar_window_es.png"class="img9"/>
+            <span class="span4">0</span>
+            <div class="popWin1">
+                <img src="打赏切图已压缩/打赏金额弹窗/confirmar_10_es.png" class="img7"/>
+                <img src="打赏切图已压缩/打赏金额弹窗/confirmar_100_es.png" class="img7"/>
+                <img src="打赏切图已压缩/打赏金额弹窗/confirmar_300_es.png" class="img7"/>
+            </div>
+            <div class="popWin2">
+                <img src="打赏切图已压缩/打赏金额弹窗/confirmar_es.png" class="img8" />
+            </div>
+        </div>
+        <div id="popWin3" class="popWin3">
+            <img src="打赏切图已压缩/打赏页面/winner_grey_es.png" class="img10"/>
+        </div>
+        <div id="shelter" class="shelter"></div>
+        <div class="content1">
+            <img src="打赏切图已压缩/打赏页面/confirmar_pic_01_es.png" class="img1" />
+            <style>
+                #snackbar {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size:30px;
+                    font-weight:bold;
+                    color:rgba(255,255,255,1);
+                    visibility: hidden;
+                    width: 43.1%;
+                    height: 8%;
+                    opacity: 0.75;
+                    background-color: #333;
+                    color: #fff;
+                    text-align: center;
+                    border-radius: 10px;
+                    position: fixed;
+                    z-index: 10000;
+                    left: 26.9%;
+                    bottom: 50%;
+                }
+
+                #snackbar.show {
+                    visibility: visible;
+                    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+                    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+                }
+            </style>
+            <script>
+                window.onload = function(){ //控制toast显示时间 3秒后自动消失
+                    setTimeout(function() {
+                        document.getElementById("snackbar").classList.remove("show");
+                    }, 3000);
+                }
+            </script>
+            <div id="snackbar" class="show">HA PREMIADO</div>
+            <div class="k1" ></div>
+            <div class="k2"></div>
+            <div class="k3"></div>
+            <span class="span3">2019.07.30</span>
+            <img src="打赏切图已压缩/打赏页面/time.png" class="img6" />
+            <div class="content-a">
+            <span class="p1" id="countdown-hour">
+                24
+            </span>
+                <span class="p1" style="margin-left: 5%;" id="countdown-minute">
+                00
+            </span>
+                <span class="p1" style="margin-left: 5%;" id="countdown-second">
+                00
+            </span>
+            </div>
+        </div>
+        <div class="content2">
+            <img src="打赏切图已压缩/打赏页面/confirmar_pic_02_es.png" class="img2" />
+            <div class="content2-1">
+                <div class="content2-item">
+                    <img src="https://manhua.qpic.cn/vertical/0/24_13_59_391e5eca4d9e2a15f3ae89f12235142c_1524549566105.jpg/420" class="img3" />
+                    <span class="span1">MI PROFESOR ES UN CEO</span>
+                    <div class="content2-item-1">
+                        <img src="打赏切图已压缩/打赏页面/premiar_es.png" class="img4" />
+                    </div>
+                    <div class="content2-item-2">
+                        <img src="打赏切图已压缩/打赏页面/reward_coins.png" class="img5" />
+                        <span class="span2 j1">6000</span>
+                    </div>
+                </div>
+                <div class="content2-item">
+                    <img src="https://manhua.qpic.cn/vertical/0/26_23_54_4d0f34a81a233b2dec15565d49822c07_1540569290992.jpg/420" class="img3" />
+                    <span class="span1">AMOR EN NOAH</span>
+                    <div class="content2-item-1">
+                        <img src="打赏切图已压缩/打赏页面/premiar_es.png" class="img4" />
+                    </div>
+                    <div class="content2-item-2">
+                        <img src="打赏切图已压缩/打赏页面/reward_coins.png" class="img5" />
+                        <span class="span2 j2">2000</span>
+                    </div>
+                </div>
+                <div class="content2-item">
+                    <img src="https://manhua.qpic.cn/vertical/0/17_16_12_cd4e6fe51036f100d5f2c1eb1289788e.jpg/420" class="img3" />
+                    <span class="span1">MI QUERIDO PRINCIPE VAMPIRO</span>
+                    <div class="content2-item-1">
+                        <img src="打赏切图已压缩/打赏页面/premiar_es.png" class="img4" />
+                    </div>
+                    <div class="content2-item-2">
+                        <img src="打赏切图已压缩/打赏页面/reward_coins.png" class="img5" />
+                        <span class="span2 j3">1000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function() {
+            let countdown = 86400;
+            setInterval(function() {
+                if(countdown <= 0) clearInterval();
+                let hour = Math.floor(countdown / 3600);
+                let time = '';
+                if (hour >= 100) {
+                    return '000000';
+                } else if (hour >= 10) {
+                    time = String(hour);
+                } else if (hour < 0) {
+                    time = '00';
+                } else {
+                    time = '0' + hour;
+                }
+                let minute = Math.floor((countdown % 3600) / 60);
+                if (minute >= 10) {
+                    time = time + String(minute);
+                } else if (minute < 0) {
+                    time = time + '00';
+                } else {
+                    time = time + '0' + minute;
+                }
+                let second = Math.floor(countdown % 60);
+                if (second >= 10) {
+                    time = time + String(second);
+                } else if (second < 0) {
+                    time = time + '00';
+                } else {
+                    time = time + '0' + second;
+                }
+                $('#countdown-hour').text(time.slice(0, 2));
+                $('#countdown-minute').text(time.slice(2, 4));
+                $('#countdown-second').text(time.slice(4, 6));
+                if (countdown==0){
+                    $("#shelter").css("display","block");
+                    $("#popWin3").css("display","block");
+                    $(".img4").attr("src","打赏切图已压缩/打赏页面/premiar_grey_es.png");
+                }
+                countdown--;
+            }, 1000);
+        })
+    </script>
+</body>
+</html>

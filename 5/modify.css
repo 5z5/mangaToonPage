@@ -1,0 +1,259 @@
+body{
+    padding: 0;
+    margin: 0;
+    margin: auto auto;
+    max-width: 750px;
+    font-family: Nunito-Bold;
+    background: #FFEDD1;
+}
+
+@font-face {
+    font-family: 'Nunito-Bold';
+    src: url('//cn.e.pic.mangatoon.mobi/for-clients/Nunito-Bold.ttf');
+}
+
+#page-content {
+    position: relative;
+    width: 100%;
+}
+
+div.popWin {
+    display: none;
+    position: absolute;
+    top: 45.8%;
+    left: 16.5%;
+    width: 73.3%;
+    z-index:1002;
+    background:rgba(255,255,255,1);
+    border-radius:20px;
+}
+
+.OK {
+    display: block;
+    width: 58.2%;
+    height: 90px;
+    margin: auto auto;
+    margin-bottom: 80px;
+    background:rgba(255,84,84,1);
+    border-radius:45px;
+    cursor: default;
+}
+
+.OK:hover {
+    opacity: 0.75;
+}
+
+.shelter {
+    display: none;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background-color:black;
+    opacity:0.6;
+    z-index:1001
+}
+
+.wrap-content {
+    position: relative;
+    width: 100%;
+    height: 1406px;
+    background: rgba(255,225,115,1);
+}
+
+.item1 {
+    position: relative;
+    width: 89.3%;
+    height: 357px;
+    margin: auto auto;
+    background:rgba(255,255,255,1);
+    border-radius:20px;
+}
+
+.item1-content1 {
+    width: 89.7%;
+    height: 90px;
+    margin-top: 35px;
+    margin-left: 6.3%;
+}
+
+.input {
+    float: left;
+    width: 65%;
+    height: 90px;
+    border:1px solid rgba(151,151,151,1);
+    border-radius: 45px;
+}
+
+.btn {
+    float: left;
+    width: 30%;
+    height: 90px;
+    margin-left: 4%;
+    background:rgba(255,84,84,1);
+    border-radius:45px;
+    cursor: default;
+}
+
+.btn:hover {
+    opacity: 0.75;
+}
+
+.item2 {
+    width: 89.3%;
+    margin: auto auto;
+    margin-top: 40px;
+    background:rgba(255,255,255,1);
+    border-radius:20px;
+}
+
+.item2-content1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.s1 {
+    width: 22.4%;
+    padding-top: 50px;
+    margin-left: 8.5%;
+}
+
+.img1 {
+    display: block;
+    width: 100%;
+}
+
+.img2 {
+    display: block;
+    width: 86.3%;
+    padding-top: 49px;
+    margin: auto auto;
+}
+
+.img3 {
+    width: 100%;
+    padding-top: 0;
+}
+
+.img4 {
+    display: block;
+    width: 66.7%;
+    padding-top: 33px;
+    padding-bottom: 52px;
+    margin: auto auto;
+}
+
+.img5 {
+    display: block;
+    width: 58.9%;
+    padding-top: 19px;
+    margin: auto auto;
+}
+
+.span1 {
+    display: inline-block;
+    width: 80%;
+    margin-top: 45px;
+    margin-left: 17.3%;
+    font-size:32px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.span2 {
+    display: block;
+    clear: both;
+    width: 80%;
+    margin: 45px auto;
+    font-size:26px;
+    font-weight:600;
+    color:rgba(255,84,84,1);
+    line-height:36px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.span3 {
+    display: block;
+    width:43%;
+    text-align: center;
+    margin: auto auto;
+    font-size:32px;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    line-height:90px;
+}
+
+.span4 {
+    display: block;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+}
+
+.span5 {
+    display: block;
+    width: 100%;
+    height:49px;
+    margin-top: 54px;
+    text-align: center;
+    font-size:36px;
+    font-weight:400;
+    color:rgba(93,70,70,1);
+    line-height:49px;
+}
+
+.span6 {
+    display: block;
+    width: 100%;
+    height:49px;
+    margin-top: 9px;
+    text-align: center;
+    font-size:36px;
+    font-weight:400;
+    color:rgba(93,70,70,1);
+    line-height:49px;
+}
+
+.span7 {
+    display: block;
+    width:100%;
+    text-align: center;
+    font-size:32px;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    line-height:90px;
+}
+
+.p1 {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size:36px;
+    font-weight:600;
+    color:rgba(51,51,51,1);
+    line-height:49px;
+}
+
+.p2 {
+    width:70%;
+    margin: 0 auto;
+    font-size:26px;
+    font-weight:600;
+    color:rgba(255,84,84,1);
+    line-height:36px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 750px){
+
+
+}

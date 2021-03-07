@@ -1,0 +1,231 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Nunito-Bold;
+    background: #FFEDD1;
+}
+
+@font-face {
+    font-family: 'Nunito-Bold';
+    src: url('//cn.e.pic.mangatoon.mobi/for-clients/Nunito-Bold.ttf');
+}
+
+#page-content {
+    width: 100%;
+    background: rgba(255,214,149,0.78);
+}
+
+.content {
+    position: relative;
+    width: 100%;
+}
+
+.content-a {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 35.8%;
+    height: 7%;
+    top: 72.9%;
+    left: 31.8%;
+}
+
+.content-1 {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.content-1-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 29%;
+    height: 100%;
+    margin-left: 3.1%;
+}
+
+.content-1-1 {
+    width: 100%;
+    height: 20px;
+    margin-top: 14px;
+    line-height: 10px;
+    text-align: center;
+}
+
+.content1 {
+    position: relative;
+    width: 100%;
+}
+
+.content2 {
+    position: relative;
+    width: 100%;
+}
+
+.content1-1 {
+    position: absolute;
+    top: 13%;
+    left: 3.9%;
+    width: 68%;
+}
+
+
+.content1-1-1-1 {
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    height: 47px;
+    margin-top: 12px;
+    border-radius: 10px;
+    flex-direction: row;
+    background:rgba(187,139,61,1);
+}
+
+.tiao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75%;
+    height: 16px;
+    margin-top: 12px;
+    margin-left: 10.4%;
+}
+
+.tiao1 {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 16px;
+    background: rgba(255,97,74,1);
+}
+
+
+.p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 100%;
+    font-family: Nunito-Bold;
+    color: rgba(255,255,255,1);
+}
+
+.p4 {
+    width: 100%;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-weight:bold;
+    font-size:16px;
+    color:rgba(255,255,255,1);
+}
+
+.p5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 100%;
+    border-right: 4px solid white;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-weight:bold;
+    font-size:24px;
+    font-family:Nunito-Bold;
+    color:rgba(255,255,255,1);
+}
+
+.p6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 82%;
+    margin-left: 3.2%;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    font-size: 24px;
+    white-space: nowrap;
+    font-family: Nunito-Bold;
+    color: rgba(255,255,255,1);
+}
+
+.p7 {
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    font-weight:bold;
+    font-family:Nunito-Bold;
+    color:rgba(255,132,0,1);
+}
+
+.share-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.share-title {
+    width:60%;
+    margin: 0;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-weight:bold;
+    font-size:28px;
+    font-family:Nunito-Bold;
+    color:rgba(187,139,61,1);
+}
+
+.img1 {
+    width: 100%;
+    margin-top: -20px;
+    border-radius: 20px;
+}
+
+.img2 {
+    width: 75.2%;
+    margin-top: 14px;
+}
+
+.img3 {
+    position: absolute;
+    top: 72.9%;
+    left: 31.8%;
+    display: block;
+    width: 35.8%;
+}
+
+/* 手机端CSS适配 */
+@media only screen and (max-width:800px){
+    .content-1-1{margin-top:7px;}
+    .content1-1-1-1{height:23.5px;margin-top:12px;border-radius:5px;}
+    .tiao{height:8px;margin-top:6px;}
+    .tiao1{height:8px;}
+    .share-title{font-size:14px;}
+    .share-btn{margin-top:2.5px;}
+    .p1{font-size:15px;}
+    .p4{font-size:8px;}
+    .p5{border-right:2px solid white;font-size:12px;}
+    .p6{font-size:12px;}
+    .p7{font-size:9px;}
+    .img1{margin-top:-10px;border-radius:10px;}
+    .img2{margin-top:7px;}
+}

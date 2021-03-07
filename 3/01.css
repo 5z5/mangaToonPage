@@ -1,0 +1,276 @@
+body{
+    padding: 0;
+    margin: 0;
+    margin: auto auto;
+    max-width: 750px;
+    font-family: Nunito-Bold;
+    background: #FFEDD1;
+}
+
+@font-face {
+    font-family: 'Nunito-Bold';
+    src: url('//cn.e.pic.mangatoon.mobi/for-clients/Nunito-Bold.ttf');
+}
+
+#page-content {
+    position: relative;
+    width: 100%;
+}
+
+.content1 {
+    position: relative;
+    width: 100%;
+}
+
+div.popWin {
+    display: none;
+    position: absolute;
+    top: 45.8%;
+    left: 16.5%;
+    width: 83.5%;
+    z-index:1002;
+}
+
+.popWin1 {
+    float: left;
+    position: absolute;
+    top: 56.7%;
+    left: 10%;
+    width: 72%;
+}
+
+.popWin2 {
+    position: absolute;
+    top: 77.7%;
+    left: 26%;
+    width: 30%;
+}
+
+div.popWin3 {
+    display: none;
+    position: absolute;
+    bottom: 13.8%;
+    left: 35.2%;
+    width: 83.5%;
+    z-index:1002;
+}
+
+.shelter {
+    display: none;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background-color:black;
+    opacity:0.6;
+    z-index:1001
+}
+
+.k1 {
+    left: 23.5%;
+    opacity:0.75;
+    width: 53%;
+    height: 6.8%;
+    position: absolute;
+    top: 54.6%;
+    background-color: rgba(252,234,105,0.35);
+}
+
+.k2 {
+    left: 23.5%;
+    opacity:0.75;
+    width: 53%;
+    height: 6.9%;
+    position: absolute;
+    top: 63.6%;
+    background: rgba(251,189,151,0.47);
+}
+
+.k3 {
+    left: 23.5%;
+    opacity:0.75;
+    width: 53%;
+    height: 6.9%;
+    position: absolute;
+    top: 73%;
+    background-color: rgba(191,187,251,0.5);
+}
+
+.content-a {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 35.8%;
+    height: 7%;
+    bottom: 1.3%;
+    left: 31.8%;
+}
+
+.content2 {
+    position: relative;
+    width: 100%;
+}
+
+.content2-1 {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 16.5%;
+    width: 100%;
+    margin-left: 1.5%;
+}
+
+content2-item {
+    display: flex;
+    flex-direction: column;
+    width: 29.3%;
+}
+
+.content2-item-1 {
+    margin-left: 20.5%;
+    width: 90%;
+}
+
+.content2-item-2 {
+    width: 90%;
+    margin-top: 1%;
+    float: left;
+    margin-left: 28%;
+}
+
+.img1 {
+    display: block;
+    width: 100%;
+}
+
+.img2 {
+    display: block;
+    width: 100%;
+}
+
+.img3 {
+    display: block;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.img4 {
+    width: 52%;
+}
+
+.img4:hover {
+    opacity: 0.75;
+}
+
+.img5 {
+    float: left;
+    display: block;
+    width: 15.9%;
+}
+
+.img6 {
+    position: absolute;
+    bottom: 2.6%;
+    left: 31.9%;
+    width: 35.9%;
+}
+
+.img7 {
+    margin-left: 4.2%;
+    width: 23%;
+}
+
+.img7:hover {
+    background: red;
+    opacity: 0.5;
+}
+
+.img8 {
+    width: 100%;
+}
+
+.img8:hover {
+    opacity: 0.75;
+}
+
+.img9 {
+    width: 80%;
+}
+
+.img10 {
+
+}
+
+.span1 {
+    display: block;
+    width:  90%;
+    height: 32px;
+    line-height: 16px;
+    margin-top: 16px;
+    font-size:16px;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    text-align: center;
+}
+
+.span2 {
+    margin-top: 10px;
+    float: left;
+    display: block;
+    font-size:20px;
+    font-weight:bold;
+    color:rgba(232,55,57,1);
+    -webkit-text-stroke:2px undefined;
+    text-stroke:2px undefined;
+}
+
+.span3 {
+    position: absolute;
+    bottom: 8.5%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size:26px;
+    font-weight:bold;
+    color:rgba(245,175,33,1);
+}
+
+.span4 {
+    position: absolute;
+    top: 33%;
+    left: 35%;
+    display: block;
+    width: 15%;
+    text-align: center;
+    font-size:30px;
+    font-weight:bold;
+    color:rgba(232,55,57,1);
+    -webkit-text-stroke:2px undefined;
+    text-stroke:2px undefined;
+}
+
+.p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 100%;
+    font-family: Nunito-Bold;
+    color: rgba(255,255,255,1);
+}
+
+@media only screen and (max-width: 800px){
+    .span2{font-size:10px;margin-top:8px;}
+}
+
+
+

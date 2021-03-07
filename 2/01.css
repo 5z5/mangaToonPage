@@ -1,0 +1,159 @@
+body{
+    max-width: 750px;
+    padding: 0;
+    margin: auto auto;
+    font-family: Nunito-Bold;
+    background: #FFEDD1;
+}
+
+@font-face {
+    font-family: 'Nunito-Bold';
+    src: url('//cn.e.pic.mangatoon.mobi/for-clients/Nunito-Bold.ttf');
+}
+
+#page-content {
+    position: relative;
+    width: 100%;
+}
+
+div.popWin {
+    display: none;
+    position: absolute;
+    top: 30.2%;
+    left: 9.2%;
+    width: 83.5%;
+    z-index:1002;
+}
+.popWin1 {
+    position: absolute;
+    top: 8%;
+    left: 19%;
+}
+div.shelter {
+    display: none;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background-color:black;
+    opacity:0.6;
+    z-index:1001
+}
+
+.content1 {
+    width: 100%;
+}
+
+.content2 {
+    position: relative;
+    width: 100%;
+}
+
+.content-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.slide{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 43%;
+}
+.slide .img{
+    overflow: hidden;
+    position: absolute;
+    transition: width 0.4s,height 0.4s,top 0.4s,left 0.4s,z-index 0.4s;
+}
+.slide .img img{
+    width: 80%;
+    margin: 8%;
+}
+.slide .img1{
+    width: 0%;
+    left: -50%;
+    z-index: 1;
+}
+.slide .img2{
+    width: 40%;
+    left: -15%;
+    top: 5%;
+    z-index: 2;
+}
+.slide .img3{
+    width: 49%;
+    left: 27%;
+    z-index: 3;
+}
+.slide .img4{
+    width: 40%;
+    left: 77%;
+    top: 5%;
+    z-index: 2;
+}
+.slide .img5{
+    width: 0%;
+    left: 110%;
+    z-index: 1;
+}
+.content-item1 {
+    width: 100%;
+    margin-top: 20px;
+}
+.content-item2 {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.span-first {
+    display: block;
+    width: 40.2%;
+    text-align: center;
+    margin: auto auto;
+    font-size:28px;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+}
+
+.img-one {
+    display: block;
+    width: 100%;
+}
+
+.img-two {
+    display: block;
+    width: 100%;
+}
+
+.img-four {
+    display: block;
+    width: 37.7%;
+    transition: width 0.4s,height 0.4s;
+    margin: auto auto;
+}
+
+.img-five {
+    display: block;
+    width: 39.7%;
+    margin-top: 60px;
+    margin-left: 31.3%;
+}
+
+.img-six {
+    width: 100%;
+}
+
+.img-seven {
+    width: 80%;
+    border-radius: 20px;
+}
+
+/* 手机端CSS适配 */
+@media only screen and (max-width:800px){
+    .content-item2{margin-top:20px;}
+    .span-first{font-size:14px;}
+    .img-five{margin-top:30px;}
+}
